@@ -1,2 +1,50 @@
 # aqtempi
-A raspberry pi zero w based aquatic temperature monitor with publishing to ThingSpeak
+A raspberry pi zero w based aquatic temperature monitor with publishing to ThingSpeak.
+
+# Purpose
+
+AqTempPi is a simple Python script that reads the temperature from a DS18B20 sensor and sends it to ThingSpeak. It utilizes the 1-Wire interface to communicate with the sensor and the ThingSpeak API to send the temperature data.
+
+## Prerequisites
+
+- Raspberry Pi or similar device with a DS18B20 temperature sensor connected
+- Python 3.x installed
+- Requests library installed (`pip install requests`)
+
+## Installation
+
+1. Clone or download the repository to your local machine.
+2. Connect the DS18B20 sensor to your Raspberry Pi.
+3. Open the terminal and navigate to the project directory.
+4. Run the script using the command `python aqtempi.py`.
+
+## Configuration
+
+Before running the script, make sure to update the `API_KEY` variable in the script with your ThingSpeak API key. You can obtain an API key by signing up for a ThingSpeak account and creating a new channel.
+
+## Usage
+
+The script will read the temperature from the DS18B20 sensor and send it to ThingSpeak. The temperature value will be displayed in the console.
+
+To run the script manually, use the command `python aqtempi.py`.
+
+To schedule the script to run periodically, you can use the crontab. Here's an example of how to do that:
+
+1. First open cronjob file via:
+
+```bash
+crontab -e
+```
+
+2. Then add these two lines:
+
+```bash
+* * * * * /path/to/your/script.py
+* * * * * (sleep 30; /path/to/your/script.py)
+```
+
+3. Optionally you can add one more line to schedule the raspberry pi to restart weekly on Tuesday at noon: 
+
+```bash
+0 12 * * 2 sudo reboot
+```
