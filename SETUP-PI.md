@@ -22,7 +22,7 @@
     * `touch ssh`
     1. Safely remove the sd card from your computer.
     1. Boot up the raspberry pi headless and then SSH into it. [Here is more info if you get hung up.](https://www.raspberrypi.com/documentation/computers/remote-access.html#remote-access)
-1. SSH into your raspberry pi, git clone this repo, and add the script to cron per the [README.md](https://github.com/shalloran/aqtempi/README.md)
+1. SSH into your raspberry pi, git clone this repo, and add the script to cron per the [README.md](https://github.com/shalloran/aqtempi/blob/main/README.md)
 1. Further help:    
     1. [How to setup email alerts in ThingSpeak.](https://blogs.mathworks.com/iot/2020/01/10/send-email-alerts-from-thingspeak/)
     1. [How to automate them every hour.](https://www.mathworks.com/help/thingspeak/timecontrol-app.html)
