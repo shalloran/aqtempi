@@ -13,10 +13,8 @@ AqTempPi is a simple Python script that reads the temperature from a DS18B20 sen
 
 ## Installation
 
-1. Clone or download the repository to your local machine.
-2. Connect the DS18B20 sensor to your Raspberry Pi.
-3. Open the terminal and navigate to the project directory.
-4. Run the script using the command `python aqtempi.py`.
+1. Follow instructions [here](https://github.com/shalloran/aqtempi/SETUP-PI.md) to setup the raspberry pi and temperature probe.
+2. Git clone this repo and you will have the python script on your raspberry pi.
 
 ## Configuration
 
