@@ -16,7 +16,7 @@
     1. First install the Raspberry Pi imager: https://www.raspberrypi.com/software/ 
 1. If you are using a raspberry pi zero WH (as above), choose the appropriate OS version. As of this writing it is a port of Debian Bullseye released 2023-12-05 and make sure it is “Legacy 32-bit”. When you open the imager tool, it should be the first option after you choose your raspberry pi. 
 1. If you aren’t purchasing the OPTIONAL equipment above, you will want to enable SSH and use the pi “headless”. This just means there is no graphical user interface, everything will be through the command line interface (the terminal). If you aren’t comfortable with the terminal just yet, buy the optional equipment above. 
-1. To enable SSH, it is very simple. Once step 1 is complete, safely remove the SD card from your host computer (macOS, Linux, or Windows) that you used to flash the SD card. Then navigate to the boot folder and create a file called “ssh” without a file extension.
+1. Enabling SSH is really simple! Once step 1 is complete, safely remove the SD card from your host computer (macOS, Linux, or Windows) that you used to flash the SD card. Then navigate to the boot folder and create a file called “ssh” without a file extension.
     1. Windows: right click in the boot volume’s white space and select New > Text Document. Delete the .txt extension before you hit Enter. If you don’t already see file extensions, click View and enable File name extensions in the menu bar.
     1. Mac/Linux: open the terminal and navigate to the boot directory of your sd card and type:
     * `touch ssh`
@@ -26,3 +26,4 @@
 1. Further help:    
     1. [How to setup email alerts in ThingSpeak.](https://blogs.mathworks.com/iot/2020/01/10/send-email-alerts-from-thingspeak/)
     1. [How to automate them every hour.](https://www.mathworks.com/help/thingspeak/timecontrol-app.html)
+    1. [Using webhooks to google sheets](https://freedium.cfd/https://business-automated.medium.com/sending-raspberry-pi-data-to-google-sheets-for-low-code-people-the-easy-way-34f9bbe2ce47)
