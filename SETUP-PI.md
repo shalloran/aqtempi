@@ -3,13 +3,13 @@
 ## Below you will find setup instructions for the hardware, many thanks to this post: https://www.submergedcottage.co.uk/blog/network-aquarium-temperature-monitoring-with-raspberry-pi/ as the inspiration for this project.
 
 ### Equipment needed:
-* 2 pack DS18B20 [temp probes](https://www.amazon.com/gp/product/B094FKQ9BS?psc=1), $8.99 at time of writing
-* 1 (or 2) [raspberry pi zero WH](https://www.amazon.com/gp/product/B0CG99MR5W?psc=1), $34.90 at the time of writing
-* 1 (or 2) [microSD cards](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GYBBBBH), $11.86 at time of writing
-* 1 (or 2) [Raspberry pi power supply](https://www.amazon.com/Raspberry-Supply-SoulBay-Adapter-Android/dp/B07CVH21NC), $11.39 at time of writing
-* (OPTIONAL) [Micro-usb hub (for connecting keyboard and mouse)](https://www.amazon.com/AuviPal-Adapter-Playstation-Classic-Raspberry/dp/B083WML1XB), $7.94 at time of writing
-* (OPTIONAL) USB-A keyboard and mouse
-* (OPTIONAL) Mini HDMI to HDMI converter or cable to boot the raspberry pi into a GUI
+* 2 pack DS18B20 [temp probes](https://www.amazon.com/gp/product/B094FKQ9BS?psc=1), $8.99 USD at time of writing
+* 1 (or 2) [raspberry pi zero WH](https://www.amazon.com/gp/product/B0CG99MR5W?psc=1), $34.90 USD at the time of writing
+* 1 (or 2) [microSD cards](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GYBBBBH), $11.86 USD at time of writing
+* 1 (or 2) [Raspberry pi power supply](https://www.amazon.com/Raspberry-Supply-SoulBay-Adapter-Android/dp/B07CVH21NC), $11.39 USD at time of writing
+* (OPTIONAL) [Micro-usb hub (for connecting keyboard and mouse)](https://www.amazon.com/AuviPal-Adapter-Playstation-Classic-Raspberry/dp/B083WML1XB), $7.94 USD at time of writing
+* (OPTIONAL) USB-A keyboard and mouse (up to you)
+* (OPTIONAL) [Mini HDMI to HDMI converter or cable](https://www.amazon.com/JSAUX-Aluminum-Compatible-Camcorder-Raspberry/dp/B08DK4LVYX) to boot the raspberry pi into a GUI, $9.99 USD at time of writing
 
 ### Steps:
 1. Flash a new copy of raspbian to an adequately sized micro SD Card. I chose a 64 GB card just because they were cheap enough. 
