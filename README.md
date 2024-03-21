@@ -1,5 +1,5 @@
 # aqtempi
-A raspberry pi zero w based aquatic temperature monitor with publishing to ThingSpeak.
+A raspberry pi zero w based aquatic temperature monitor with publishing to ThingSpeak. Blog post here: https://halloran.blog/aqtempi/
 
 # Purpose
 
